@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"> 
+  <link rel="stylesheet" type="text/css" href="tip.css">
+  <title>Tip Calculator</title>
+</head>
+
+<body>
+<div class="container">
+
+
+    
+    <div class="row">
+      <div class="column">
+        <div class="contain">
+    
+      
+      <p class="labeling">Total Bill:</p><br>
+    <div class="quantity">
+        
+          <input type="text"  id="billTotal" value="">
+    </div>
+
+    <p>Tip%:</p><br/>
+    <div class="quantity">
+      <button class="btn_minus" type="button" id="btnminustippercent" onclick="subtract();">-</button>
+      <input type="text"  id="tippercent" value="">
+      <button class="btn_minus" type="button" id="btnplustippercent"onclick="checksum();">+</button>
+    </div>
+
+    <p>Number of People:</p><br/>
+    <div class="quantity">
+      <button class="btn_minus" type="button" id="btnminus_numofpeople" onclick="numpeople_sub();">-</button>
+      <input type="text"  id="peoplenum" value="">
+      <button class="btn_minus" type="button" onclick="numpeople_sum();">+</button>
+    </div>
+    <button type="button"  id="submit" onclick="show();">submit</button> 
+
+      
+  </div>
+  </div>
+  <div class="column">
+
+        
+        <div class="contain2">
+          <div>
+          <h1>Tip </h1>
+          <h4 >per Person</h4>
+          </div>
+          <div>
+           
+             <p id="perperson"></p>
+        </div>
+        </div>  
+        <div class="contain2">
+          <div>
+          <h1>Tip </h1>
+          <h4 >per Person</h4>
+          </div>
+          <div>
+           
+              <p id="perpersoninvest" class="perperson3"></p>
+          </div>
+        </div>  
+
+
+           
+    
+        
+    </div>
+</div>
+    
+  <script src="tip.js"></script>
+</body>
+
+</html> 

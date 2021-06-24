@@ -1,0 +1,71 @@
+.container{
+    
+    
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border: 3px solid green;
+        border-bottom: 100%;
+        padding: 25px;
+        height: 70%;
+    
+        
+}
+.contain{
+    float: left;
+    width: 50%;
+
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+.quantity{
+    display:flex;
+
+}
+.quantity button{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #000;
+    color:#000;
+    border-radius: 0;
+    background: #fff;
+}
+
+.quantity input{
+    border:none;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    width: 100px;
+    font: 20px;
+    height: 40px;
+    color:#000;
+    font-weight: 200;
+}
+.contain2  {
+    display: inline-flex;
+    justify-content: space-around;
+    
+}
+#perperson{
+    font-size: 50px;
+    
+    
+
+}
+#perpersoninvest{
+    font-size: 50px;
+}
